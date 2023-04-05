@@ -19,19 +19,19 @@
 ## 使用したモデル
 |  モデル  |  Validに対するQWK  | 提出データに対するQWK |
 | ---- | ---- | ---- |
-|  luke-japanese-large-lite  |  TD  |  0.648  |
-|  luke-japanese-base-lite  |  TD  |  0.645  |
-|  luke-japanese-large  |  TD  |  0.648  |
-|  deberta-v2-base-japanese  |  TD  |  0.628  |
-|  deberta-v2-large-japanese  |  TD  |  0.631  |
-|  waseda/roberta-base-japanese  |  TD  |  0.599  |
-|  waseda/roberta-large-japanese  |  TD  |  0.633  |
-|  rinna_japanese-roberta-base  |  TD  |  0.610  |
-|  xlm-roberta-base  |  TD  |  0.593  |
-|  xlm-roberta-large  |  TD  |  0.615  |
-|  cl-tohoku/bert-base-japanese-v2  |  TD  |  0.555  |
-|  cl-tohoku/bert-large-japanese  |  TD  |  0.565  |
-|  cl-tohoku/bert-base-japanese-whole-word-masking  |  TD  |  0.541  |
+|  luke-japanese-large-lite  |  0.6312494709842178  |  0.648  |
+|  luke-japanese-base-lite  |  0.6080105677221286  |  0.645  |
+|  luke-japanese-large  |  0.6310931095474535  |  0.648  |
+|  deberta-v2-base-japanese  |  0.5956303347946228  |  0.628  |
+|  deberta-v2-large-japanese  |  0.6232196817019955  |  0.631  |
+|  waseda/roberta-base-japanese  |  --35  |  0.599  |
+|  waseda/roberta-large-japanese  |  --36  |  0.633  |
+|  rinna_japanese-roberta-base  |  --40  |  0.610  |
+|  xlm-roberta-base  |  --37  |  0.593  |
+|  xlm-roberta-large  |  --39  |  0.615  |
+|  cl-tohoku/bert-base-japanese-v2  |  --31  |  0.555  |
+|  cl-tohoku/bert-large-japanese  |  0.5572011420607461  |  0.565  |
+|  cl-tohoku/bert-base-japanese-whole-word-masking  |  --30  |  0.541  |
 <br>
 luke-japanese-large-lite 根性マイニング前だと0.641
 <br>
