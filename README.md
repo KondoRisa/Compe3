@@ -28,6 +28,7 @@
   ```
   `ensemble_most.py`（多数決をすることでアンサンブル）よりも`ensemble.py`（足し合わせて四捨五入をすることでアンサンブル）の結果の方が全体を通して高かった。
 <br>
+最終的な結果として、luke-japanese-large-lite, luke-japanese-large, deberta-v2-base-japanese, deberta-v2-large-japanese の`ensemble.py`によるアンサンブルがもっとも良かった。
 
 ## 使用したモデル
 |  モデル  |  Validに対するQWK  | 提出データに対するQWK |
