@@ -33,8 +33,8 @@
 ## 使用したモデル
 |  モデル  |  Validに対するQWK  | 提出データに対するQWK |
 | ---- | ---- | ---- |
-|  luke-japanese-large-lite  |  0.631  |  0.648  |
 |  luke-japanese-base-lite  |  0.608  |  0.645  |
+|  luke-japanese-large-lite  |  0.631  |  0.648  |
 |  luke-japanese-large  |  0.631  |  0.648  |
 |  deberta-v2-base-japanese  |  0.596  |  0.628  |
 |  deberta-v2-large-japanese  |  0.623  |  0.631  |
