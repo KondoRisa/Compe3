@@ -1,15 +1,15 @@
 # 第３回 研究室卒業論文テーマ決めコンペ
 
-- タスク 
+- タスク  <br>
 日本語のTwitterテキストの感情極性を５クラスに分類 （-2, -1, 0, 1, 2)　<br>
 評価指標は Quadratic Weighted Kappa <br>
 
-- 制約
+- 制約 <br>
 ニューラルネットワーク・外部データを使用しない <br>
 データセットの訓練用・検証用・提出用の分割を変更しない <br>
 使用するGPUは１人１枚まで
 
-- データセット[WRIME](https://github.com/ids-cv/wrime)
+- データセット[WRIME](https://github.com/ids-cv/wrime) <br>
 訓練用：30,000 件　<br>
 検証用：2,500 件　<br>
 提出用：2,500 件　<br>
@@ -32,12 +32,12 @@
 |  cl-tohoku/bert-base-japanese-v2  |  TD  |  0.555  |
 |  cl-tohoku/bert-large-japanese  |  TD  |  0.565  |
 |  cl-tohoku/bert-base-japanese-whole-word-masking  |  TD  |  0.541  |
-
+<br>
 luke-japanese-large-lite 根性マイニング前だと0.641
 
 
 
-
+## 実行手順
 1. 入力として、与えられたデートセットを根性マイニングで整えたものを使用した
 1. 数字のついた各フォルダ内にある`train〇(数字).py`を
   ```
