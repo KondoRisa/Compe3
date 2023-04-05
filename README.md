@@ -15,6 +15,19 @@
 提出用：2,500 件　<br>
 <br>
 
+## 実行手順
+1. 入力として、与えられたデートセットを根性マイニングで整えたものを使用した
+1. 数字のついた各フォルダ内にある`train〇(数字).py`を
+  ```
+  python ~/〇(数字)/train〇(数字).py > ~/〇(数字)/logのファイル名
+  ```
+  と実行した。
+1. アンサンブルは、ensembleフォルダにある`ensemble.py`（足し合わせて四捨五入をすることでアンサンブル）と`ensemble_most.py`（多数決をすることでアンサンブル）を用いた
+  ```
+  python ~/ensemble/ensemble.py
+  ```
+  `ensemble_most.py`（多数決をすることでアンサンブル）よりも`ensemble.py`（足し合わせて四捨五入をすることでアンサンブル）の結果の方が全体を通して高かった。
+<br>
 
 ## 使用したモデル
 |  モデル  |  Validに対するQWK  | 提出データに対するQWK |
@@ -32,20 +45,9 @@
 |  cl-tohoku/bert-base-japanese-v2  |  --31  |  0.555  |
 |  cl-tohoku/bert-large-japanese  |  0.5572011420607461  |  0.565  |
 |  cl-tohoku/bert-base-japanese-whole-word-masking  |  --30  |  0.541  |
-<br>
+
 luke-japanese-large-lite 根性マイニング前だと0.641
 <br>
 
 
-## 実行手順
-1. 入力として、与えられたデートセットを根性マイニングで整えたものを使用した
-1. 数字のついた各フォルダ内にある`train〇(数字).py`を
-  ```
-  python ~/〇(数字)/train〇(数字).py > ~/〇(数字)/logのファイル名
-  ```
-  と実行した。
-1. アンサンブルは、ensembleフォルダにある`ensemble.py`（足し合わせて四捨五入をすることでアンサンブル）と`ensemble_most.py`（多数決をすることでアンサンブル）を用いた
-  ```
-  python ~/ensemble/ensemble.py
-  ```
-  `ensemble_most.py`（多数決をすることでアンサンブル）よりも`ensemble.py`（足し合わせて四捨五入をすることでアンサンブル）の結果の方が全体を通して高かった。
+
