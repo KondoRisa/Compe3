@@ -37,16 +37,18 @@
 |  luke-japanese-large  |  0.6310931095474535  |  0.648  |
 |  deberta-v2-base-japanese  |  0.5956303347946228  |  0.628  |
 |  deberta-v2-large-japanese  |  0.6232196817019955  |  0.631  |
-|  waseda/roberta-base-japanese  |  --35  |  0.599  |
-|  waseda/roberta-large-japanese  |  --36  |  0.633  |
-|  rinna_japanese-roberta-base  |  --40  |  0.610  |
-|  xlm-roberta-base  |  --37  |  0.593  |
-|  xlm-roberta-large  |  --39  |  0.615  |
-|  cl-tohoku/bert-base-japanese-v2  |  --31  |  0.555  |
+|  waseda/roberta-base-japanese  |  	0.588851  |  0.599  |
+|  waseda/roberta-large-japanese  |  0.621578  |  0.633  |
+|  rinna_japanese-roberta-base  |  0.582732  |  0.610  |
+|  xlm-roberta-base  |  0.526172  |  0.593  |
+|  xlm-roberta-large  |  0.603420  |  0.615  |
+|  cl-tohoku/bert-base-japanese-v2  |  0.568710  |  0.555  |
 |  cl-tohoku/bert-large-japanese  |  0.5572011420607461  |  0.565  |
-|  cl-tohoku/bert-base-japanese-whole-word-masking  |  --30  |  0.541  |
+|  cl-tohoku/bert-base-japanese-whole-word-masking  |  --  |  0.541  |
 
-luke-japanese-large-lite 根性マイニング前だと0.641
+luke-japanese-large-lite について、根性マイニング前だと提出データに対するQWKは0.641であった<br>
+cl-tohoku/bert-base-japanese-whole-word-masking におけるValidに対するQWKは、記録を取り忘れた
+
 <br>
 
 
