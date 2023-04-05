@@ -39,8 +39,8 @@
 |  waseda/roberta-base-japanese  |  	0.589  |  0.599  |
 |  waseda/roberta-large-japanese  |  0.622  |  0.633  |
 |  rinna_japanese-roberta-base  |  0.583  |  0.610  |
-|  xlm-roberta-base  |  0.526172  |  0.593  |
-|  xlm-roberta-large  |  0.603420  |  0.615  |
+|  xlm-roberta-base  |  0.526  |  0.593  |
+|  xlm-roberta-large  |  0.603  |  0.615  |
 |  cl-tohoku/bert-base-japanese-v2  |  0.569  |  0.555  |
 |  cl-tohoku/bert-large-japanese  |  0.557  |  0.565  |
 |  cl-tohoku/bert-base-japanese-whole-word-masking  |  --  |  0.541  |
