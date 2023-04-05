@@ -9,11 +9,11 @@
 データセットの訓練用・検証用・提出用の分割を変更しない <br>
 使用するGPUは１人１枚まで
 
-- データセット[WRIME](https://github.com/ids-cv/wrime) <br>
+- データセットは[WRIME](https://github.com/ids-cv/wrime) <br>
 訓練用：30,000 件　<br>
 検証用：2,500 件　<br>
 提出用：2,500 件　<br>
-
+<br>
 
 
 ## 使用したモデル
@@ -34,7 +34,7 @@
 |  cl-tohoku/bert-base-japanese-whole-word-masking  |  TD  |  0.541  |
 <br>
 luke-japanese-large-lite 根性マイニング前だと0.641
-
+<br>
 
 
 ## 実行手順
