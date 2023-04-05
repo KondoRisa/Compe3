@@ -1,0 +1,104 @@
+ぼけっとしてたらこんな時間。チャリあるから食べにでたいのに…
+[0, 29834, 30571, 29865, 14835, 440, 540, 96, 29836, 388, 29883, 22, 14, 300, 29833, 29832, 82, 366, 89, 2]
+['<s>', '▁', 'ぼ', 'け', 'っとして', 'たら', 'こんな', '時間', '。', 'チャ', 'リ', 'ある', 'から', '食べ', 'に', 'で', 'たい', 'のに', '...', '</s>']
+{'input_ids': tensor([[    0,  4054, 19888,  ...,     1,     1,     1],
+        [    0,  2011, 11329,  ...,     1,     1,     1],
+        [    0,   949, 30616,  ...,     1,     1,     1],
+        ...,
+        [    0,  8239, 10360,  ...,     1,     1,     1],
+        [    0, 29834, 31991,  ...,     1,     1,     1],
+        [    0, 29834, 23482,  ...,     1,     1,     1]]), 'attention_mask': tensor([[1, 1, 1,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 0, 0, 0],
+        ...,
+        [1, 1, 1,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 0, 0, 0]])}
+最大トークン数は174です
+dict_keys(['input_ids', 'attention_mask'])
+dict_keys(['input_ids', 'attention_mask', 'label'])
+学習データ数は30000です
+tensor([    0, 29834, 30571, 29865, 14835,   440,   540,    96, 29836,   388,
+        29883,    22,    14,   300, 29833, 29832,    82,   366,    89,     2,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1])
+<s> ぼけっとしてたらこんな時間。チャリあるから食べにでたいのに...</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+{'loss': 1.3822, 'learning_rate': 9.95e-07, 'epoch': 1.0}
+正解： [2 0 1 ... 4 4 4]
+推論： [2 2 2 ... 3 3 3]
+{'eval_loss': 1.2534611225128174, 'eval_accuracy': 0.4256, 'eval_precision': 0.4407651962955204, 'eval_recall': 0.4256, 'eval_f1': 0.3886957214168053, 'eval_QWK': 0.5490570350191186, 'eval_runtime': 23.8916, 'eval_samples_per_second': 104.639, 'eval_steps_per_second': 3.307, 'epoch': 1.0}
+{'loss': 1.2282, 'learning_rate': 9.9e-07, 'epoch': 2.0}
+正解： [2 0 1 ... 4 4 4]
+推論： [2 2 2 ... 3 3 3]
+{'eval_loss': 1.2217469215393066, 'eval_accuracy': 0.4572, 'eval_precision': 0.46811700652018107, 'eval_recall': 0.4572, 'eval_f1': 0.44434661614191484, 'eval_QWK': 0.6112342771936499, 'eval_runtime': 23.9052, 'eval_samples_per_second': 104.58, 'eval_steps_per_second': 3.305, 'epoch': 2.0}
+{'loss': 1.1864, 'learning_rate': 9.849999999999999e-07, 'epoch': 3.0}
+正解： [2 0 1 ... 4 4 4]
+推論： [2 2 2 ... 3 3 3]
+{'eval_loss': 1.2284704446792603, 'eval_accuracy': 0.45, 'eval_precision': 0.46296602391106273, 'eval_recall': 0.45, 'eval_f1': 0.4369250425461145, 'eval_QWK': 0.6229083559085754, 'eval_runtime': 23.9018, 'eval_samples_per_second': 104.595, 'eval_steps_per_second': 3.305, 'epoch': 3.0}
+{'loss': 1.1532, 'learning_rate': 9.8e-07, 'epoch': 4.0}
+正解： [2 0 1 ... 4 4 4]
+推論： [2 2 2 ... 3 3 3]
+{'eval_loss': 1.2337377071380615, 'eval_accuracy': 0.4576, 'eval_precision': 0.47158744556241006, 'eval_recall': 0.4576, 'eval_f1': 0.4473158098484664, 'eval_QWK': 0.6168061716311745, 'eval_runtime': 23.9022, 'eval_samples_per_second': 104.593, 'eval_steps_per_second': 3.305, 'epoch': 4.0}
+{'loss': 1.1233, 'learning_rate': 9.75e-07, 'epoch': 5.0}
+正解： [2 0 1 ... 4 4 4]
+推論： [2 2 2 ... 3 3 3]
+{'eval_loss': 1.238219976425171, 'eval_accuracy': 0.4536, 'eval_precision': 0.46499707990432415, 'eval_recall': 0.4536, 'eval_f1': 0.4476087720706375, 'eval_QWK': 0.6210534889793515, 'eval_runtime': 23.8967, 'eval_samples_per_second': 104.617, 'eval_steps_per_second': 3.306, 'epoch': 5.0}
+{'loss': 1.0948, 'learning_rate': 9.7e-07, 'epoch': 6.0}
+正解： [2 0 1 ... 4 4 4]
+推論： [2 2 2 ... 3 3 3]
+{'eval_loss': 1.2837024927139282, 'eval_accuracy': 0.4452, 'eval_precision': 0.4729533429458559, 'eval_recall': 0.4452, 'eval_f1': 0.4364346468966599, 'eval_QWK': 0.6150900396796227, 'eval_runtime': 23.9098, 'eval_samples_per_second': 104.56, 'eval_steps_per_second': 3.304, 'epoch': 6.0}
+{'loss': 1.069, 'learning_rate': 9.649999999999999e-07, 'epoch': 7.0}
+正解： [2 0 1 ... 4 4 4]
+推論： [1 2 2 ... 3 3 3]
+{'eval_loss': 1.2638893127441406, 'eval_accuracy': 0.4548, 'eval_precision': 0.4651128856218303, 'eval_recall': 0.4548, 'eval_f1': 0.4528904490092805, 'eval_QWK': 0.6310931095474535, 'eval_runtime': 23.912, 'eval_samples_per_second': 104.55, 'eval_steps_per_second': 3.304, 'epoch': 7.0}
+{'loss': 1.0394, 'learning_rate': 9.6e-07, 'epoch': 8.0}
+正解： [2 0 1 ... 4 4 4]
+推論： [1 2 2 ... 3 3 3]
+{'eval_loss': 1.3027080297470093, 'eval_accuracy': 0.4508, 'eval_precision': 0.46936360678500477, 'eval_recall': 0.4508, 'eval_f1': 0.44552293189724806, 'eval_QWK': 0.6246704304557957, 'eval_runtime': 23.8945, 'eval_samples_per_second': 104.627, 'eval_steps_per_second': 3.306, 'epoch': 8.0}
+{'loss': 1.0114, 'learning_rate': 9.55e-07, 'epoch': 9.0}
+正解： [2 0 1 ... 4 4 4]
+推論： [2 2 2 ... 3 3 3]
+{'eval_loss': 1.3231868743896484, 'eval_accuracy': 0.4476, 'eval_precision': 0.4654651424176821, 'eval_recall': 0.4476, 'eval_f1': 0.445391710587818, 'eval_QWK': 0.6234323904170547, 'eval_runtime': 23.8965, 'eval_samples_per_second': 104.618, 'eval_steps_per_second': 3.306, 'epoch': 9.0}
+{'loss': 0.9852, 'learning_rate': 9.499999999999999e-07, 'epoch': 10.0}
+正解： [2 0 1 ... 4 4 4]
+推論： [1 2 2 ... 3 3 3]
+{'eval_loss': 1.3366385698318481, 'eval_accuracy': 0.4544, 'eval_precision': 0.4641998739187233, 'eval_recall': 0.4544, 'eval_f1': 0.4509039965139495, 'eval_QWK': 0.6197857610981661, 'eval_runtime': 23.9048, 'eval_samples_per_second': 104.582, 'eval_steps_per_second': 3.305, 'epoch': 10.0}
+{'loss': 0.9562, 'learning_rate': 9.45e-07, 'epoch': 11.0}
+正解： [2 0 1 ... 4 4 4]
+推論： [1 2 2 ... 3 3 3]
+{'eval_loss': 1.3671482801437378, 'eval_accuracy': 0.4456, 'eval_precision': 0.4613212732634334, 'eval_recall': 0.4456, 'eval_f1': 0.44430111050372034, 'eval_QWK': 0.6179274837475526, 'eval_runtime': 23.8972, 'eval_samples_per_second': 104.615, 'eval_steps_per_second': 3.306, 'epoch': 11.0}
+{'loss': 0.9238, 'learning_rate': 9.399999999999999e-07, 'epoch': 12.0}
+正解： [2 0 1 ... 4 4 4]
+推論： [2 2 2 ... 3 3 4]
+{'eval_loss': 1.3855845928192139, 'eval_accuracy': 0.4492, 'eval_precision': 0.45519868271568376, 'eval_recall': 0.4492, 'eval_f1': 0.4484711907104952, 'eval_QWK': 0.6205117422488056, 'eval_runtime': 23.8928, 'eval_samples_per_second': 104.634, 'eval_steps_per_second': 3.306, 'epoch': 12.0}
+{'train_runtime': 11792.9973, 'train_samples_per_second': 508.777, 'train_steps_per_second': 15.908, 'train_loss': 1.0960787764320834, 'epoch': 12.0}
+正解： [2 0 1 ... 4 4 4]
+推論： [1 2 2 ... 3 3 3]
+     label                                           sentence  pred
+0        2                            建設中の建物の利用目的も変更になるだろうなあ。     1
+1        0               演劇とかも同時並行でやっている。演劇の危機にどう思ってるか知りたかった。     2
+2        1             犬夜叉には腐女子っていないのかな？というかあの漫画はＮＬ向けの漫画なのかも。     2
+6        4  銀魂はあの終わり方は全ての界隈で大変、評価されていて、そういう意味での空知先生、ありがとう連...     3
+7        2                         ジャンプの休載、終わってるからもはや関係なくて・・・     1
+...    ...                                                ...   ...
+2492     0                        "海外行きたい… 籠もるのは冬だけでいいんじゃあ〜！"     2
+2496     4    ぐっどこんでぃしょん。心も頭もクリア。秋分の日のおかげかな？人と自然としっとり過ごしたい気分。     3
+2497     4  朝から免許の更新へ。90分で終わり、出口へ向かうと献血の呼びかけが。みんな通り過ぎていく。献...     3
+2498     4  夜も更けて参りましたが、食後のコーヒーが飲みたいのでドリップ開始…ぼんやり秋の夜長を楽しみた...     3
+2499     4    コーヒー休憩（kahavitauko）いつもの豆なのにすごく美味しくできた レシピは記録したｖ     3
+
+[1363 rows x 3 columns]
