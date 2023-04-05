@@ -31,18 +31,18 @@
 ## 使用したモデル
 |  モデル  |  Validに対するQWK  | 提出データに対するQWK |
 | ---- | ---- | ---- |
-|  luke-japanese-large-lite  |  0.6312494709842178  |  0.648  |
-|  luke-japanese-base-lite  |  0.6080105677221286  |  0.645  |
-|  luke-japanese-large  |  0.6310931095474535  |  0.648  |
-|  deberta-v2-base-japanese  |  0.5956303347946228  |  0.628  |
-|  deberta-v2-large-japanese  |  0.6232196817019955  |  0.631  |
-|  waseda/roberta-base-japanese  |  	0.588851  |  0.599  |
-|  waseda/roberta-large-japanese  |  0.621578  |  0.633  |
-|  rinna_japanese-roberta-base  |  0.582732  |  0.610  |
+|  luke-japanese-large-lite  |  0.631  |  0.648  |
+|  luke-japanese-base-lite  |  0.608  |  0.645  |
+|  luke-japanese-large  |  0.631  |  0.648  |
+|  deberta-v2-base-japanese  |  0.596  |  0.628  |
+|  deberta-v2-large-japanese  |  0.623  |  0.631  |
+|  waseda/roberta-base-japanese  |  	0.589  |  0.599  |
+|  waseda/roberta-large-japanese  |  0.622  |  0.633  |
+|  rinna_japanese-roberta-base  |  0.583  |  0.610  |
 |  xlm-roberta-base  |  0.526172  |  0.593  |
 |  xlm-roberta-large  |  0.603420  |  0.615  |
-|  cl-tohoku/bert-base-japanese-v2  |  0.568710  |  0.555  |
-|  cl-tohoku/bert-large-japanese  |  0.5572011420607461  |  0.565  |
+|  cl-tohoku/bert-base-japanese-v2  |  0.569  |  0.555  |
+|  cl-tohoku/bert-large-japanese  |  0.557  |  0.565  |
 |  cl-tohoku/bert-base-japanese-whole-word-masking  |  --  |  0.541  |
 
 luke-japanese-large-lite について、根性マイニング前だと提出データに対するQWKは0.641であった<br>
