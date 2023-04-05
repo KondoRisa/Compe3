@@ -48,7 +48,11 @@
 |  cl-tohoku/bert-base-japanese-whole-word-masking  |  --  |  0.541  |
 
 luke-japanese-large-lite について、根性マイニング前だと提出データに対するQWKは0.641であった<br>
-cl-tohoku/bert-base-japanese-whole-word-masking におけるValidに対するQWKは、記録を取り忘れた
+cl-tohoku/bert-base-japanese-whole-word-masking におけるValidに対するQWKは、記録を取り忘れた<br>
+
+モデルの選択において、以下のサイトを参考にした
+- [BERT Classification Tutorial](https://github.com/hppRC/bert-classification-tutorial)
+- [フリーで使える日本語の主な大規模言語モデル（LLM）まとめ](https://zenn.dev/hellorusk/articles/ddee520a5e4318)
 
 <br>
 
